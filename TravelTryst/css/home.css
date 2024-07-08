@@ -243,7 +243,7 @@ section{
 }
 
 .home-about .image{
-   flex:1 1 41rem;
+   flex:1 30rem;
 }
 
 .home-about .image img{
@@ -579,7 +579,7 @@ section{
       display: inline-block;
       transition: .2s linear;
    }
-
+   
    #menu-btn.fa-times{
       transform: rotate(180deg);
    }
