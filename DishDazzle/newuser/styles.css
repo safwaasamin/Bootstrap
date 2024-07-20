@@ -1,14 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   user-select: none;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .bg-img {
-  background: url('../images/hero.png');
+  background: url('../images/bg8.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -21,10 +28,10 @@
   left: 0;
   height: 100%;
   width: 100%;
-  /* background: rgba(0, 0, 0, 0.7); */
+  background: rgba(103, 85, 85, 0.5); 
 }
 
-.top-header ul {
+/* .top-header ul {
   display: flex;
   align-items: center;
   list-style: none;
@@ -33,13 +40,12 @@
 
 .top-header ul a {
   margin: 30px;
-  color: whitesmoke;
-  text-decoration: wavy;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
-  font-size: 2rem;
-}
-
+  font-size: 2.5rem;
+} */
 
 .content {
   position: absolute;
@@ -55,11 +61,10 @@
 }
 
 .content header {
-  color: wheat;
+  color: rgb(255, 166, 0);
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0 0 35px 0;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .field {
@@ -84,7 +89,6 @@
   outline: none;
   color: #000000;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
 }
 
 .space {
@@ -99,7 +103,6 @@
   color: #222;
   display: none;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .pass-key:valid~.show {
@@ -114,7 +117,6 @@
 .pass a {
   color: white;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
 }
 
 .pass:hover a {
@@ -129,7 +131,6 @@
   letter-spacing: 1px;
   font-weight: 600;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .field input[type="submit"]:hover {
@@ -140,13 +141,11 @@
   padding-top: 30px;
   font-size: 15px;
   color: white;
-  font-family: 'Poppins', sans-serif;
 }
 
 .signup a {
-  color: #1b5c86;
+  color: #ffffff;
   font-weight: 600;
-  text-decoration: none;
 }
 
 .signup a:hover {
